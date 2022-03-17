@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Refined RWTHOnline",
+  "version": "1.0",
+  "description": "Additional Tools for RWTHOnline",
+  "icons": {
+    "48": "assets/icons/border-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://online.rwth-aachen.de/RWTHonline/ee/ui/ca2/app/desktop/*"
+      ],
+      "js": ["main.js"]
+    }
+  ]
+}
