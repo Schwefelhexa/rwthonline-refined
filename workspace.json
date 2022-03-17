@@ -1,7 +1,6 @@
 {
   "version": 2,
   "projects": {
-    "extension": "apps/extension",
-    "server": "apps/server"
+    "extension": "apps/extension"
   }
 }
